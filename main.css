@@ -1,0 +1,318 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    width: 100%;
+    overflow-x: hidden; 
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 98%);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.title {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h1 {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    width: 50%;
+    text-align: center;
+}
+
+.title h1 span {
+    font-weight: 300;
+}
+
+.title p {
+    font-weight: 200;
+    font-size: 14px;
+    color: hsl(229, 6%, 66%);
+    width: 60%;
+    text-align: center;
+    margin-top: 0;
+}
+
+.squares {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.squares .sq-one {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 350px;
+    box-shadow: rgb(149 157 165 / 50%) -6px 6px 24px;
+    max-height: 250px;
+}
+
+.squares .sq-one .sq {
+    border-top: 5px solid hsl(180, 62%, 55%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.squares .sq-one .sq .text {
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.squares .sq-one .sq .text h2 {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: -0.2rem;
+}
+
+.squares .sq-one .sq .text p {
+    font-weight: 200;
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+}
+
+.squares .sq-one .sq img {
+    width: 64px;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* ***************************** */
+
+.two-sq {
+    margin: 0 2rem;
+}
+
+.squares .sq-two {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 350px;
+    box-shadow: rgb(149 157 165 / 50%) -6px 6px 24px;
+    margin-bottom: 2rem;
+    max-height: 250px;
+}
+
+.squares .sq-two .sq-2 {
+    border-top: 5px solid hsl(0, 78%, 62%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.squares .sq-two .sq-2 .text {
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.squares .sq-two .sq-2 .text h2 {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: -0.2rem;
+}
+
+.squares .sq-two .sq-2 .text p {
+    font-weight: 200;
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+}
+
+.squares .sq-two .sq-2 img {
+    width: 64px;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+/* ############################# */
+
+.squares .sq-three {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 350px;
+    box-shadow: rgb(149 157 165 / 50%) -6px 6px 24px;
+    max-height: 250px;
+}
+
+.squares .sq-three .sq-3 {
+    border-top: 5px solid hsl(34, 97%, 64%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.squares .sq-three .sq-3 .text {
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.squares .sq-three .sq-3 .text h2 {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: -0.2rem;
+}
+
+.squares .sq-three .sq-3 .text p {
+    font-weight: 200;
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+}
+
+.squares .sq-three .sq-3 img {
+    width: 64px;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* ***************************** */
+
+.squares .sq-four {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 350px;
+    box-shadow: rgb(149 157 165 / 50%) -6px 6px 24px;
+    max-height: 250px;
+}
+
+.squares .sq-four .sq {
+    border-top: 5px solid hsl(212, 86%, 64%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.squares .sq-four .sq .text {
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.squares .sq-four .sq .text h2 {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: -0.2rem;
+}
+
+.squares .sq-four .sq .text p {
+    font-weight: 200;
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+}
+
+.squares .sq-four .sq img {
+    width: 64px;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 767px) {
+    main {
+        max-width: 100%;
+        min-width:375px;
+        margin-bottom: 3rem;
+    }
+
+    .title {
+        margin-top: 2rem;
+    }
+
+    .title h1 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .title p {
+        width: 85%;
+        font-size: 16px;
+    }
+
+    .squares {
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+
+    .squares .sq-one {
+        margin-bottom: 2rem;
+        width: 325px;
+    }
+
+    .squares .sq-one .sq .text {
+        margin-top: 0rem;
+    }
+
+    .squares .sq-one .sq .text h2 {
+        margin-bottom: -10px;
+    }
+
+    .squares .sq-one .sq .text p {
+        font-size: 14px;
+    }
+
+    .two-sq {
+        margin: 0;
+    }
+
+    .squares .sq-two {
+        width: 325px;
+    }
+
+    .squares .sq-two .sq-2 .text {
+        margin-top: 0rem;
+    }
+
+    .squares .sq-two .sq-2 .text h2 {
+        margin-bottom: -10px;
+    }
+
+    .squares .sq-two .sq-2 .text p {
+        font-size: 14px;
+    }
+
+    .squares .sq-three {
+        width: 325px;
+    }
+    
+    .squares .sq-three .sq-3 .text {
+        margin-top: 0rem;
+    }
+
+    .squares .sq-three .sq-3 .text h2 {
+        margin-bottom: -10px;
+    }
+
+    .squares .sq-three .sq-3 .text p {
+        font-size: 14px;
+    }
+
+    .squares .sq-four {
+        margin-top: 2rem;
+        width: 325px;
+    }
+
+    .squares .sq-four .sq .text {
+        margin-top: 0rem;
+    }
+
+    .squares .sq-four .sq .text h2 {
+        margin-bottom: -10px;
+    }
+
+    .squares .sq-four .sq .text p {
+        font-size: 14px;
+    }
+
+}
